@@ -33,8 +33,7 @@ h1 {
   padding: 10px;
 }
 p {
-  font-size: calc(20% + 40 * ((70vw - 500px) / (1420)));
-  
+  font-size: calc(50% + 20 * ((70vw - 500px) / (1420)));
 }
 .cardA {
   padding-left: 30px;
