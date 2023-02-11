@@ -6,7 +6,8 @@ const MainPage = () => {
     <div className={classes.mainContainer}>
       <h1 className={classes.title}>Welcome to my little world</h1>
       <div className={classes.intro}>
-        I am is Loris Tarazi, and I'm all about so many things! <br />
+        Hey there! My name is Loris Tarazi, and I'm all about so many things!{" "}
+        <br />
         In this side of my world; I'm an aspiring web-developer. My first step
         was in the Front-End development, I've been walking this path for almost
         two years now!, little younger than covid-19. I have learned & grown in
