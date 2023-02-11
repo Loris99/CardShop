@@ -17,6 +17,6 @@
   padding: 30px;
   color: black;
   font-family: sans-serif;
-  font-size: 1.2rem;
+  font-size: calc(20% + 20 * ((80vw - 500px) / (1420)));
   line-height: 1.6;
 }
