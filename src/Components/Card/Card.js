@@ -22,7 +22,7 @@ const Card = () => {
                     Check all of the events happening around you!
                     <br />A full functional javascript task; add/edit/delete
                     events connected with realtime database! <br />
-                    this project I was more focused on grasping & understanding
+                    In this project I was more focused on grasping & understanding
                     javaScript concepts
                   </p>
                   <a
@@ -56,8 +56,9 @@ const Card = () => {
                   <p>
                     I share my love for tea and its varieties through this
                     website; which demonstartes the analysis of a fictional cozy
-                    tea shop, in which I learned how to use charts!
+                    tea shop, in which I learned how to use charts in react!
                     <br /> ps: I love coffee too..
+                  
                   </p>
                   <a
                     className={styles.checkmebtn}
@@ -81,7 +82,7 @@ const Card = () => {
               <div className={styles.cardContent}>
                 <p>
                   This is an exciting small game. It's a small excercise for the
-                  brain, great excersise to practice React! <br /> Although it
+                  brain, great excersise to practice many React concepts! <br /> Although it
                   might get on your nerves but it's a good distraction for your
                   nephews (it worked form me)
                 </p>
