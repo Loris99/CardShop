@@ -1,0 +1,120 @@
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow: wrap;
+  width: 100%;
+  align-items: center;
+  margin-top: 30px;
+
+  padding-bottom: 50px;
+}
+.checkmebtn {
+  width: fit-content;
+  height: 50px;
+  background-color: ffff8673;
+  text-decoration: none;
+  padding: 8px;
+}
+.checkmebtn:hover {
+  /* width: fit-content; */
+  /* height: 50px; */
+  border-radius: 10px;
+  background-color: #ffff8673;
+}
+.firstLine {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+h1 {
+  padding: 10px;
+}
+.cardA {
+  padding-left: 30px;
+}
+.cardB {
+  padding-right: 30px;
+}
+.cardD {
+  padding-left: 30px;
+}
+.cardE {
+  padding-right: 30px;
+}
+
+.cardC {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* padding-left: 80px; */
+}
+.flipCard {
+  /* background-color: transparent; */
+  width: 27vw;
+  height: 30vh;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flipCardFront,
+.flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 50px;
+  /* padding: 10px; */
+}
+
+/* Style the front side (fallback if image is missing) */
+.flipCardFront {
+  background-color: #ffff8673;
+  color: black;
+}
+
+/* Style the back side */
+.flipCardBack {
+  background-color: whitesmoke;
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.cardContent {
+  /* position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%; */
+  padding: 20px;
+  font-family: sans-serif;
+  line-height: 1.4;
+  /* margin-top: calc(10% - 18px); */
+  padding-left: calc(10% - 20px);
+  padding-right: calc(10% - 20px);
+  padding-top: calc(10% - 20px);
+  padding-bottom: calc(10% - 20px);
+}
