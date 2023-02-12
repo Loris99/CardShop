@@ -28,24 +28,28 @@
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
+  column-gap: 30%;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 h1 {
   padding: 10px;
 }
 p {
-  font-size: calc(50% + 20 * ((70vw - 500px) / (1420)));
+  /* font-size: calc(50% + 20 * ((70vw - 500px) / (1420))); */
+  font-size: calc(13px + 0.390625vw);
 }
 .cardA {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 .cardB {
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 .cardD {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 .cardE {
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 
 .cardC {
@@ -58,7 +62,7 @@ p {
 }
 .flipCard {
   /* background-color: transparent; */
-  width: 27vw;
+  width: calc(40vh - 20px);
   height: calc(30vh + 20px);
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -120,4 +124,5 @@ p {
   padding-right: calc(10% - 20px);
   margin-top: calc(10% - 20px);
   margin-bottom: calc(10% - 20px);
+  font-size: calc(13px + 0.390625vw);
 }
