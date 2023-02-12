@@ -13,9 +13,9 @@ const Card = () => {
             <div className={styles.flipCardBack}>
               <div className={styles.cardContent}>
                 <p>
-                  Check all of the events happening around you!
+                  Check all of the events happening around!
                   <br />A full functional javascript task; add/edit/delete
-                  events connected with realtime database! <br />
+                  events with realtime database! <br />
                   In this project I was more focused on grasping & understanding
                   javaScript concepts
                 </p>
