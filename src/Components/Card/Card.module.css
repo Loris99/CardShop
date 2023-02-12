@@ -75,12 +75,7 @@ h1 {
   font-family: sans-serif;
   line-height: 1.4;
   padding: calc(10% - 10px);
-  /* padding-left: calc(10% - 20px);
-  padding-right: calc(10% - 20px); */
-  /* margin-top: calc(10% - 20px);
-  margin-bottom: calc(10% - 20px); */
   position: absolute;
-  /* transform: translate(0% , calc(10% - 20px)); */
   font-size: calc(13px + 0.390625vw);
 }
 p {
