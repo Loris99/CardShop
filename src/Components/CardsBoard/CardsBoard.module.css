@@ -1,0 +1,26 @@
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.twoCardsLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.oneCardLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+

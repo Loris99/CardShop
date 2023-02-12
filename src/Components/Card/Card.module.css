@@ -1,30 +1,3 @@
-.cardsContainer {
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-  overflow: wrap;
-  width: 100%;
-  align-items: center;
-  margin-top: 30px;
-  padding-bottom: 50px;
-}
-
-.twoCardsLine {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 90%;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.oneCardLine {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
 .flipCard {
   width: calc(46vh - 20px);
   min-height: calc(30vh + 30px);
@@ -62,6 +35,7 @@ h1 {
   align-items: center;
   position: relative;
 }
+
 .flipCardFront,
 .flipCardBack {
   position: absolute;
@@ -71,6 +45,7 @@ h1 {
   backface-visibility: hidden;
   border-radius: 50px;
 }
+
 .cardContent {
   font-family: sans-serif;
   line-height: 1.4;
@@ -78,17 +53,16 @@ h1 {
   position: absolute;
   font-size: calc(13px + 0.390625vw);
 }
+
 p {
   font-size: calc(13px + 0.390625vw);
 }
 
 .checkmebtn {
-  width: fit-content;
-  height: 50px;
-  background-color: ffff8673;
   text-decoration: none;
   padding: 8px;
 }
+
 .checkmebtn:hover {
   border-radius: 10px;
   background-color: #ffff8673;

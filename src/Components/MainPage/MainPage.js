@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./MainPage.module.css";
-import Card from "../Card/Card";
+import CardsBoard from "../CardsBoard/CardsBoard";
 const MainPage = () => {
   return (
     <div className={classes.mainContainer}>
@@ -17,7 +17,7 @@ const MainPage = () => {
         I did along the way for fun..
         <br /> I hope you enjoy them the same way I did while creating them!
       </div>
-      <Card />
+      <CardsBoard />
     </div>
   );
 };

@@ -6,10 +6,12 @@
   align-items: center;
   background-color: rgb(193 105 225 / 34%);
 }
+
 .title {
   color: white;
   text-align: center;
 }
+
 .intro {
   width: calc(40% + 120px);
   background-color: whitesmoke;
