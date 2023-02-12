@@ -1,7 +1,7 @@
 .flipCard {
-  width: calc(46vh - 20px);
-  min-height: calc(30vh + 30px);
+  min-height: calc(250px + 5vh);
   perspective: 1000px;
+  width: calc(400px + 10vw);
 }
 
 .flipCardInner {
@@ -55,7 +55,7 @@ h1 {
 }
 
 p {
-  font-size: calc(13px + 0.390625vw);
+  font-size: calc(14px + 0.390625vw);
 }
 
 .checkmebtn {
