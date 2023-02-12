@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LorisGallery/static/css/main.f37b409b.css",
-    "main.js": "/LorisGallery/static/js/main.d0863cf1.js",
+    "main.css": "/LorisGallery/static/css/main.cdce2366.css",
+    "main.js": "/LorisGallery/static/js/main.594ebda0.js",
     "static/js/787.ce6728fd.chunk.js": "/LorisGallery/static/js/787.ce6728fd.chunk.js",
     "index.html": "/LorisGallery/index.html",
-    "main.f37b409b.css.map": "/LorisGallery/static/css/main.f37b409b.css.map",
-    "main.d0863cf1.js.map": "/LorisGallery/static/js/main.d0863cf1.js.map",
+    "main.cdce2366.css.map": "/LorisGallery/static/css/main.cdce2366.css.map",
+    "main.594ebda0.js.map": "/LorisGallery/static/js/main.594ebda0.js.map",
     "787.ce6728fd.chunk.js.map": "/LorisGallery/static/js/787.ce6728fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f37b409b.css",
-    "static/js/main.d0863cf1.js"
+    "static/css/main.cdce2366.css",
+    "static/js/main.594ebda0.js"
   ]
 }
