@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/LorisGallery/static/css/main.729f4d66.css",
-    "main.js": "/LorisGallery/static/js/main.cd61b426.js",
+    "main.css": "/LorisGallery/static/css/main.b22f25a6.css",
+    "main.js": "/LorisGallery/static/js/main.55c28fc8.js",
     "static/js/787.ce6728fd.chunk.js": "/LorisGallery/static/js/787.ce6728fd.chunk.js",
-    "static/media/tea-cup.png": "/LorisGallery/static/media/tea-cup.8774e14e7d3f3d48fafe.png",
     "index.html": "/LorisGallery/index.html",
-    "main.729f4d66.css.map": "/LorisGallery/static/css/main.729f4d66.css.map",
-    "main.cd61b426.js.map": "/LorisGallery/static/js/main.cd61b426.js.map",
+    "main.b22f25a6.css.map": "/LorisGallery/static/css/main.b22f25a6.css.map",
+    "main.55c28fc8.js.map": "/LorisGallery/static/js/main.55c28fc8.js.map",
     "787.ce6728fd.chunk.js.map": "/LorisGallery/static/js/787.ce6728fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.729f4d66.css",
-    "static/js/main.cd61b426.js"
+    "static/css/main.b22f25a6.css",
+    "static/js/main.55c28fc8.js"
   ]
 }
