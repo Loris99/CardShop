@@ -8,13 +8,11 @@ import teaCup from "./../../Assets/tea-cup.png";
 const Card = () => {
   return (
     <div className={styles.cardsContainer}>
-      <div className={styles.firstLine}>
-        <div className={styles.cardA}>
+      <div className={styles.twoCardsLine}>
           <div className={styles.flipCard}>
             <div className={styles.flipCardInner}>
               <div className={styles.flipCardFront}>
                 <h1>Event Planner</h1>
-                {/* <img src={calendar} alt="calendar icon" /> */}
               </div>
               <div className={styles.flipCardBack}>
                 <div className={styles.cardContent}>
@@ -31,14 +29,10 @@ const Card = () => {
                   >
                     Check Me
                   </a>
-
-                  {/* <button onClick={}>Check me!</button> */}
                 </div>
-              </div>
             </div>
           </div>
         </div>
-        <div className={styles.cardB}>
           <div className={styles.flipCard}>
             <div className={styles.flipCardInner}>
               <div className={styles.flipCardFront}>
@@ -68,10 +62,9 @@ const Card = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div className={styles.cardC}>
+      <div className={styles.oneCardLine}>
         <div className={styles.flipCard}>
           <div className={styles.flipCardInner}>
             <div className={styles.flipCardFront}>
@@ -96,8 +89,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className={styles.firstLine}>
-        <div className={styles.cardD}>
+      <div className={styles.twoCardsLine}>
           <div className={styles.flipCard}>
             <div className={styles.flipCardInner}>
               <div className={styles.flipCardFront}>
@@ -120,31 +112,28 @@ const Card = () => {
                   </a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        <div className={styles.cardE}>
-          <div className={styles.flipCard}>
-            <div className={styles.flipCardInner}>
-              <div className={styles.flipCardFront}>
-                <h1>Mystery Project</h1>
-                {/* <img
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={styles.flipCardFront}>
+              <h1>Mystery Project</h1>
+              {/* <img
                   style={{
                     width: "calc(20% + 20 * ((100vw — 500px) / (1420)))",
                   }}
                   src={mystery}
                   alt="mystery box"
                 /> */}
-              </div>
-              <div className={styles.flipCardBack}>
-                <div className={styles.cardContent}>
-                  <p>
-                    This one might be the intersection of the two things I enjoy
-                    the most!
-                    <br />
-                    coming soon..
-                  </p>
-                </div>
+            </div>
+            <div className={styles.flipCardBack}>
+              <div className={styles.cardContent}>
+                <p>
+                  This one might be the intersection of the two things I enjoy
+                  the most!
+                  <br />
+                  coming soon..
+                </p>
               </div>
             </div>
           </div>
